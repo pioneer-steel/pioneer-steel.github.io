@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- EDIT HERE: Website Title -->
-    <title>MFO S.A. | Leading Manufacturer of Steel Profiles</title>
+    <title>PIONEER METAL | Leading Manufacturer of Steel Profiles</title>
     
     <!-- External Resources: Tailwind CSS and FontAwesome -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -61,6 +61,15 @@
             background-color: #ef4444;
             color: white;
         }
+
+        /* Language Icon Style */
+        .lang-icon {
+            font-size: 1.1rem;
+            transition: transform 0.2s ease;
+        }
+        .lang-icon:hover {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body class="bg-white text-slate-900">
@@ -71,15 +80,31 @@
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center">
                     <!-- EDIT HERE: Logo Text -->
-                    <span class="text-3xl font-extrabold text-black tracking-tighter">MFO<span class="text-red-600">.</span></span>
+                    <span class="text-3xl font-extrabold text-black tracking-tighter">PIONEER<span class="text-red-600">.</span></span>
                 </div>
                 
-                <!-- MENU ITEMS -->
-                <div class="hidden md:flex space-x-10 font-semibold text-sm uppercase tracking-wider">
+                <!-- MENU ITEMS WITH LANGUAGE LINKS -->
+                <div class="hidden md:flex items-center space-x-8 font-semibold text-sm uppercase tracking-wider">
                     <a href="#home" class="text-slate-600 hover:text-red-600 transition">Home</a>
                     <a href="#products" class="text-slate-600 hover:text-red-600 transition">Products</a>
                     <a href="#cooperation" class="text-slate-600 hover:text-red-600 transition">Cooperation</a>
                     <a href="#contact" class="text-slate-600 hover:text-red-600 transition">Contact</a>
+                    
+                    <!-- Language Switcher Section -->
+                    <div class="flex items-center space-x-3 ml-4 border-l pl-6 border-slate-200">
+                        <!-- Spanish Flag (Spain) -->
+                        <a href="#" title="Español" class="text-slate-400 hover:text-red-600 lang-icon">
+                            <i class="fas fa-globe-europe"></i> <span class="text-[10px] ml-1">ES</span>
+                        </a>
+                        <!-- Arabic Flag (Represented by Globe/Custom) -->
+                        <a href="#" title="العربية" class="text-slate-400 hover:text-red-600 lang-icon">
+                            <i class="fas fa-globe-africa"></i> <span class="text-[10px] ml-1">AR</span>
+                        </a>
+                        <!-- Portuguese Flag (Portugal/Brazil) -->
+                        <a href="#" title="Português" class="text-slate-400 hover:text-red-600 lang-icon">
+                            <i class="fas fa-globe-americas"></i> <span class="text-[10px] ml-1">PT</span>
+                        </a>
+                    </div>
                 </div>
 
                 <div>
@@ -101,7 +126,7 @@
                     Forging the <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-red-500">Future with Steel</span>
                 </h1>
                 <p class="text-xl md:text-2xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
-                    MFO S.A. is a leader in the production of cold-formed steel profiles for window systems and the construction industry worldwide.
+                    PIONEER METAL PRODUCTS FACTORY is a leader in the production of cold-formed steel profiles for window systems and the construction industry worldwide.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products" class="bg-red-600 text-white px-10 py-5 rounded font-bold hover:bg-white hover:text-black transition text-center min-w-[200px]">
@@ -202,7 +227,7 @@
                     <h3 class="text-red-500 font-bold uppercase tracking-widest text-sm mb-6">Global Network</h3>
                     <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">Strategic Business Cooperation</h2>
                     <p class="text-slate-400 text-lg mb-10 leading-relaxed border-l border-red-900 pl-6">
-                        We believe in long-term relationships built on trust, quality, and mutual growth. MFO S.A. exports to over 50 countries, providing flexible logistics and dedicated support.
+                        We believe in long-term relationships built on trust, quality, and mutual growth. PIONEER METAL exports to over 50 countries, providing flexible logistics and dedicated support.
                     </p>
                     
                     <div class="space-y-8">
@@ -269,7 +294,7 @@
                         <div>
                             <h5 class="font-bold text-black">Headquarters</h5>
                             <!-- EDIT HERE: Address -->
-                            <p class="text-slate-500 text-sm">ul. Przemysłowa 10, 05-800 Pruszków, Poland</p>
+                            <p class="text-slate-500 text-sm">Industrial Zone A, 2025 Steel Road, Global City</p>
                         </div>
                     </div>
                     <div class="flex items-center gap-6 group">
@@ -279,7 +304,7 @@
                         <div>
                             <h5 class="font-bold text-black">Phone Support</h5>
                             <!-- EDIT HERE: Phone -->
-                            <p class="text-slate-500 text-sm">+48 22 758 12 12</p>
+                            <p class="text-slate-500 text-sm">+86 123 4567 8900</p>
                         </div>
                     </div>
                     <div class="flex items-center gap-6 group">
@@ -289,7 +314,7 @@
                         <div>
                             <h5 class="font-bold text-black">Email Address</h5>
                             <!-- EDIT HERE: Email -->
-                            <p class="text-slate-500 text-sm">sales@mfo.pl</p>
+                            <p class="text-slate-500 text-sm">info@pioneer-metal.com</p>
                         </div>
                     </div>
                 </div>
@@ -326,7 +351,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                 <div class="col-span-1 md:col-span-2">
-                    <span class="text-3xl font-extrabold text-white tracking-tighter mb-6 block">MFO<span class="text-red-600">.</span></span>
+                    <span class="text-3xl font-extrabold text-white tracking-tighter mb-6 block">PIONEER<span class="text-red-600">.</span></span>
                     <p class="max-w-md leading-relaxed">
                         International leader in cold-formed steel profiles. Our high-tech production facility ensures precision and quality for global industries.
                     </p>
@@ -351,7 +376,8 @@
                 </div>
             </div>
             <div class="pt-10 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center text-xs uppercase tracking-widest">
-                <p>&copy; 2024 MFO S.A. All rights reserved.</p>
+                <!-- UPDATED COPYRIGHT INFORMATION -->
+                <p>&copy; 2025 PIONEER METAL PRODUCTS FACTORY. ALL RIGHT RESERVED.</p>
                 <div class="flex space-x-8 mt-4 md:mt-0">
                     <a href="#" class="hover:text-white transition">Privacy Policy</a>
                     <a href="#" class="hover:text-white transition">Terms of Service</a>
